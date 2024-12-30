@@ -22,5 +22,7 @@ void next_per(vector<int> &nums){
         reverse(nums.begin()+ind+1,nums.end());
     }
 }
+//TC: o(N), SC: o(1)
 
 //IMP NOTE: this code doen not work for test case [5,3,2,1,0,0,0]
+// brute force approach would be find all p&C and then compare and find the next permt
