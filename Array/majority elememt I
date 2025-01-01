@@ -1,0 +1,72 @@
+// brute force 
+int majorityElement(vector<int> v){
+
+    int n=v.size();
+
+    for ( int i=0; i < n; i++ ){
+
+        int cnt=0;
+        for ( int j=0;j<n;j++){
+            if(v[i]==v[j]){
+                cnt++;
+            }
+        }
+        if(cnt> (n/2)){
+            return v[i];
+        }
+    }
+    return -1;
+}
+
+// better approach
+
+int majorityElement(vector<int> v){
+
+    int n=v.size();
+    map<int,int> mp;
+    
+    for(int i=0;i<n;i++){
+        mp[v[i]]++;
+    }
+
+    for(auto it:mp){
+        if(it.second> n/2){
+           return it.first;
+        }
+    }
+    return -1;
+}
+
+// optimal approach
+
+int majorityElement(vector<int> v){
+
+    int n=v.size();
+    int cnt=0;
+    int el;
+    for (int i = 0; i < n; i++) {
+        if (cnt == 0) {
+            cnt = 1;
+            el = v[i];
+        }
+        else if (el == v[i]) cnt++;
+        else cnt--;
+    }
+    //checking if the stored element
+    // is the majority element:
+    int cnt1 = 0;
+    for (int i = 0; i < n; i++) {
+        if (v[i] == el) cnt1++;
+    }
+
+    if (cnt1 > (n / 2)) return el;
+    return -1;
+
+}
+
+// IMP NOTE: [2,2,1,1,1,2,2] Here, we can see that 2 is the majority element. 
+// But if in this array, the last two elements were 3, then the Element variable 
+// would have stored 3 instead of 2. For that, we need to check if the Element is 
+// the majority element by traversing the array once more. But if the question 
+// guarantees that the given array contains a majority element, 
+// then we can bet the Element will store the majority one.
