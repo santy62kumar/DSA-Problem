@@ -1,0 +1,22 @@
+ //*******
+ vector<int> findTwoElement(vector<int>& arr) {
+        // code here
+        
+        map<int,int> mp;
+        int n=arr.size();
+        int rep=-1,non_rep=-1;
+        for(int i=0;i<n;i++){
+            
+            mp[arr[i]]++;
+            
+        }
+        for(int i=1;i<=n;i++){
+            if(mp[i]==2) rep=i;
+            if(mp[i]==0) non_rep=i;
+            
+            if(rep!=-1 && non_rep!=-1) break;
+        }
+        return {rep, non_rep};
+    }
+
+    // NOTE there is more optimised solution to it using bit manupulation
