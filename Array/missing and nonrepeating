@@ -1,4 +1,4 @@
- //*******
+// brute force 
  vector<int> findTwoElement(vector<int>& arr) {
         // code here
         
@@ -19,4 +19,55 @@
         return {rep, non_rep};
     }
 
-    // NOTE there is more optimised solution to it using bit manupulation
+    // NOTE there is more optimised solution to it using bit manupulation(optimal solution)
+    // there is one solution using mathematcal calculation
+
+
+    vector<int> findTwoElement(vector<int>& arr) {
+        
+        int n=arr.size();
+        int xr=0;
+        for(int i=0;i<n;i++){
+            xr=xr^arr[i];
+            xr=xr^(i+1);
+        }
+        
+        int setbit=0;
+        while(1){
+            if((xr&(1<<setbit))!=0) break;
+            setbit++;
+        }
+
+        // divide the array element into one and zero club based on the setbit postion 
+        int zero=0,one=0;
+        for(int i=0;i<n;i++){
+            if((arr[i]&(1<<setbit))!=0){
+                one=one^arr[i];
+            }
+            else{
+                zero=zero^arr[i];
+            }
+        }
+        
+        for(int i=1;i<=n;i++){
+            if((i& (1<<setbit))!=0){
+                one=one^i;
+            }else{
+                zero=zero^i;
+            }
+        }
+    
+        int cnt=0;    
+        for(int i=0;i<n;i++){
+            if(arr[i]==one) cnt++;
+            
+        }
+        if(cnt==2) return {one,zero};
+        return {zero,one};
+    }
+
+    //Steps:
+    // 1.we will run a loop and calculate the XOR of all the array elements and the numbers between 1 to N. 
+    // 2.find the position of the first set bit from the right
+    // 3.we will check the bit of that position for every element to segregate the element into zero and one club
+    // 4.We will traverse the entire array and check how many times variable zero appears.

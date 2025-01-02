@@ -10,3 +10,6 @@ Majority Element II(more than n/3 times) LINK: https://leetcode.com/problems/maj
 <br/>
 Majority Element I(more than n/2 times) LINK: https://leetcode.com/problems/majority-element/description/
 <br/>
+Missing and Non_repeating LINK:https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1
+<br/>
+
