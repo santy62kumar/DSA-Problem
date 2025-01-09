@@ -12,4 +12,5 @@ Majority Element I(more than n/2 times) LINK: https://leetcode.com/problems/majo
 <br/>
 Missing and Non_repeating LINK:https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1
 <br/>
-
+inversion count: LINK: https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1?
+<br/>
