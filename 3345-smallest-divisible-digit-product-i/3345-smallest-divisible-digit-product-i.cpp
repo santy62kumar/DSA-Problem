@@ -1,20 +1,27 @@
 class Solution {
 public:
-    int product_digit(int x){
-        int ans=1, d=0;
-        for(; x; x/=10){
-            d=x%10;
-            ans*=d;
+
+    int find_num(int n){
+        int prod=1;
+
+        while(n){
+            int temp=n%10;
+            n=n/10;
+            prod*=temp;
         }
-        return ans;
+        return prod;
     }
+
     int smallestNumber(int n, int t) {
-        int P[2]={product_digit(n/10), product_digit(n/10+1)};
-        int z0=((n/10)+1)*10;
-        for(int z=n; z<n+10; z++){
-            int p=P[z>=z0], d=z%10;
-            if (p*d%t==0) return z;
+        
+        for(int i=n;i<=n+10; i++){
+
+            if(find_num(i)%t==0){
+                return i;
+            }
+        
         }
-        return 0;
+        
+        return -1;
     }
 };
