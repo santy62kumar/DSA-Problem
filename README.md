@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/santy62kumar/DSA-Problem/tree/master/0209-minimum-size-subarray-sum) |
 | [1140-stone-game-ii](https://github.com/santy62kumar/DSA-Problem/tree/master/1140-stone-game-ii) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/santy62kumar/DSA-Problem/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/santy62kumar/DSA-Problem/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/santy62kumar/DSA-Problem/tree/master/0209-minimum-size-subarray-sum) |
 | [1140-stone-game-ii](https://github.com/santy62kumar/DSA-Problem/tree/master/1140-stone-game-ii) |
 ## Game Theory
 |  |
@@ -90,4 +92,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/santy62kumar/DSA-Problem/tree/master/2213-longest-substring-of-one-repeating-character) |
+## Binary Search
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/santy62kumar/DSA-Problem/tree/master/0209-minimum-size-subarray-sum) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/santy62kumar/DSA-Problem/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
