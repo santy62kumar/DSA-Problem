@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/santy62kumar/DSA-Problem/tree/master/0202-happy-number) |
 | [1140-stone-game-ii](https://github.com/santy62kumar/DSA-Problem/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/santy62kumar/DSA-Problem/tree/master/1510-stone-game-iv) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/santy62kumar/DSA-Problem/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/santy62kumar/DSA-Problem/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/santy62kumar/DSA-Problem/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/santy62kumar/DSA-Problem/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/santy62kumar/DSA-Problem/tree/master/0287-find-the-duplicate-number) |
 | [0876-middle-of-the-linked-list](https://github.com/santy62kumar/DSA-Problem/tree/master/0876-middle-of-the-linked-list) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/santy62kumar/DSA-Problem/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/santy62kumar/DSA-Problem/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/santy62kumar/DSA-Problem/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/santy62kumar/DSA-Problem/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/santy62kumar/DSA-Problem/tree/master/0202-happy-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/santy62kumar/DSA-Problem/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/santy62kumar/DSA-Problem/tree/master/0904-fruit-into-baskets) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/santy62kumar/DSA-Problem/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -131,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/santy62kumar/DSA-Problem/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/santy62kumar/DSA-Problem/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/santy62kumar/DSA-Problem/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/santy62kumar/DSA-Problem/tree/master/0287-find-the-duplicate-number) |
 ## Bit Manipulation
 |  |
