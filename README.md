@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/santy62kumar/DSA-Problem/tree/master/0152-maximum-product-subarray) |
 | [0209-minimum-size-subarray-sum](https://github.com/santy62kumar/DSA-Problem/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/santy62kumar/DSA-Problem/tree/master/0287-find-the-duplicate-number) |
+| [0724-find-pivot-index](https://github.com/santy62kumar/DSA-Problem/tree/master/0724-find-pivot-index) |
 | [0904-fruit-into-baskets](https://github.com/santy62kumar/DSA-Problem/tree/master/0904-fruit-into-baskets) |
 | [1140-stone-game-ii](https://github.com/santy62kumar/DSA-Problem/tree/master/1140-stone-game-ii) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/santy62kumar/DSA-Problem/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/santy62kumar/DSA-Problem/tree/master/0209-minimum-size-subarray-sum) |
+| [0724-find-pivot-index](https://github.com/santy62kumar/DSA-Problem/tree/master/0724-find-pivot-index) |
 | [1140-stone-game-ii](https://github.com/santy62kumar/DSA-Problem/tree/master/1140-stone-game-ii) |
 ## Game Theory
 |  |
